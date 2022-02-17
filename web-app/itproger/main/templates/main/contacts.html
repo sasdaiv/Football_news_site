@@ -1,0 +1,21 @@
+{%extends 'main/layout.html' %}
+
+{% block title %}Контакти{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h2>Наші контакти</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.811870880866!2d23.99805831541964!3d49.827200979394235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae781b40fb809%3A0xae48ba263505c7f8!2z0LLRg9C70LjRhtGPINCE0LLQs9C10L3QsCDQmtC-0L3QvtCy0LDQu9GM0YbRjywgODXQkSwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1suk!2sua!4v1645124514140!5m2!1suk!2sua"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <h4>Адреса компанії:</h4>
+        <p> вулиця Євгена Коновальця, 85Б, Львів, Львівська область, 79000, Україна</p>
+        <h4>Телефони:</h4>
+        <p1>+380964793195 </p1>
+        <h4> </h4>
+        <a>+380639653543</a>
+        <h4> </h4>
+        <a href="{% url 'home' %}" class="btn btn-warning">Повернутися на головну сторінку</a>
+        <a href="{% url 'about'%}" class="btn btn-danger">Ознайомитись з інформацією про компанію</a>
+
+    </div>
+{% endblock %}

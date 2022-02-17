@@ -1,0 +1,18 @@
+{%extends 'main/layout.html' %}
+
+{% block title %}Головна сторінка{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Головна сторінка</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum cumque debitis delectus nemo nihil officia perspiciatis quibusdam quis quos, repudiandae suscipit, tempora ut. Cumque fuga minima molestias officiis sint?</p>
+        <a href="{% url 'about' %}" class="btn btn-danger">На сторінку про компанію</a>
+<!--        {% for el in values %}-->
+<!--            {% if el == 'Hello' %}-->
+<!--                {% filter lower %}-->
+<!--                <p>{{ el }}</p>-->
+<!--                {% endfilter %}-->
+<!--            {% endif %}-->
+<!--        {% endfor %}-->
+    </div>
+{% endblock %}
